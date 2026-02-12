@@ -1,15 +1,12 @@
 class Shareavideo < Formula
   desc "CLI for Share a Video recording, auth, and uploads"
   homepage "https://github.com/boudra/shareavideo"
-  url "https://github.com/boudra/shareavideo/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/boudra/shareavideo/releases/download/v0.1.4/shareavideo-0.1.4-macos-universal.tar.gz"
+  sha256 "ba600bfef755bf2140751adffd3a45e73d1ed245bc8e20283222e712f7e7c633"
   license :cannot_represent
 
-  depends_on :macos
-
   def install
-    system "swift", "build", "-c", "release", "--product", "shareavideo"
-    bin.install ".build/release/shareavideo"
+    bin.install "shareavideo"
   end
 
   test do
