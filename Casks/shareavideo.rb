@@ -1,4 +1,4 @@
-cask "shareavideo-app" do
+cask "shareavideo" do
   version "0.1.4"
   sha256 "1493eb264b3fa53330fa34eb76051942d506e41f3e28e5dd225eadeea70f80cb"
 
@@ -7,7 +7,7 @@ cask "shareavideo-app" do
   desc "Lightweight macOS screen recorder"
   homepage "https://github.com/boudra/shareavideo"
 
-  depends_on formula: "shareavideo"
+  depends_on formula: "shareavideo-cli"
   auto_updates true
   app "Share a Video.app"
 

@@ -1,4 +1,4 @@
-class Shareavideo < Formula
+class ShareavideoCli < Formula
   desc "CLI for Share a Video recording, auth, and uploads"
   homepage "https://github.com/boudra/shareavideo"
   url "https://github.com/boudra/shareavideo/releases/download/v0.1.4/shareavideo-0.1.4-macos-universal.tar.gz"

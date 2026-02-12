@@ -5,12 +5,12 @@ Homebrew tap for ShareAVideo.
 ## Install
 
 ```bash
-brew install --cask boudra/shareavideo/shareavideo-app
+brew install --cask boudra/shareavideo/shareavideo
 ```
 
 This cask installs both:
 - the macOS app (`Share a Video.app`)
-- the CLI formula (`shareavideo`)
+- the CLI formula (`shareavideo-cli`, command: `shareavideo`)
 
 ## Notes
 
