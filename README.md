@@ -14,5 +14,5 @@ This cask installs both:
 
 ## Notes
 
-- The app cask downloads `ShareAVideo.dmg` from GitHub Releases.
+- The app and CLI artifacts are served from `boudra/homebrew-shareavideo` releases.
 - The `shareavideo` release workflow in `boudra/shareavideo` rewrites this tap on each `v*` tag with pinned version + SHA256 values.
