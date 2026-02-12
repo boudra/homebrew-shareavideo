@@ -1,8 +1,8 @@
 cask "shareavideo" do
-  version "0.1.8"
-  sha256 "63f167c174d6cd66988b081cf6a60b2c4bf3ebf6db9516ad9edbf3115f9fff8f"
+  version "0.1.9"
+  sha256 "5e39dfad22d31c804204aeb0de1b6e01e7b98cc368025e7086991912094fb2c5"
 
-  url "https://github.com/boudra/homebrew-shareavideo/releases/download/v#{version}/ShareAVideo.dmg"
+  url "https://github.com/boudra/homebrew-shareavideo/releases/download/v0.1.9/ShareAVideo.dmg"
   name "Share a Video"
   desc "Lightweight macOS screen recorder"
   homepage "https://github.com/boudra/shareavideo"
