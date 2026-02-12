@@ -7,6 +7,7 @@ cask "shareavideo-app" do
   desc "Lightweight macOS screen recorder"
   homepage "https://github.com/boudra/shareavideo"
 
+  depends_on formula: "shareavideo"
   auto_updates true
   app "Share a Video.app"
 
