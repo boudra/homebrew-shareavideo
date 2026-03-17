@@ -5,10 +5,10 @@ class Shareavideo < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/boudra/homebrew-shareavideo/releases/download/v#{version}/shareavideo-macos-aarch64.tar.gz"
-    sha256 "fd0fc605249b7650f77bd26b4e6a1f87264d2c9e328ebd8c95e3e74d539af983"
+    sha256 "e9617b7db3fa5cac8b6351f32dbeb7ca4663af4dcccc8dceb1136e92798f42f9"
   else
     url "https://github.com/boudra/homebrew-shareavideo/releases/download/v#{version}/shareavideo-macos-x86_64.tar.gz"
-    sha256 "0fde55b83443b05f2b811ad0b84bedff0a9e0279bc3345bbd9d7ececaec82f96"
+    sha256 "34bb12ea921c6f80ce01396081e1c55c70d00d3852b0723a24c6aea238480944"
   end
 
   def install
