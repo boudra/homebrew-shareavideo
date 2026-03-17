@@ -1,9 +1,9 @@
 # homebrew-shareavideo
 
-Homebrew tap for ShareAVideo.
+Homebrew tap for [ShareAVideo](https://shareavideo.ai).
 
 ## Install
 
 ```bash
-brew install --cask boudra/shareavideo/shareavideo
+brew install boudra/shareavideo/shareavideo
 ```
